@@ -44,11 +44,11 @@ gulp.task('browser-sync', function() {
         notify: false
     }); 
 });
-// Удаляем dist
+// delete dist
 gulp.task('clean', function() {
     return del.sync('dist');
 });
-// Чистим все файлы которые лежат не по феншую =)
+// cleans our project of unnecessary files that are not there
 gulp.task('clear', function() {
     return cache.clearAll();
 });
@@ -63,7 +63,7 @@ gulp.task('img', function() {
     })))
     .pipe(gulp.dest('dist/img'));
 });
-
+// gulp watch - start all what we need
 gulp.task('watch', ['browser-sync', 'css-libs', 'scripts'], function() {
     gulp.watch('app/sass/**/*.sass', ['sass']);
     gulp.watch('app/*.html', browserSync.reload);
