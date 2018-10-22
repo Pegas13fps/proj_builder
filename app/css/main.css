@@ -1,14 +1,21 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("../fonts/Raleway-Regular.woff"); }
+
 body {
   background-color: #070A14;
   margin: 0 auto;
-  text-align: center; }
+  text-align: center;
+  font-family: Raleway-Regular; }
 
-h1 {
+main img {
+  width: 90%; }
+
+main h1 {
   /* Без заплутаних дротів. Без заплутаних ходів. */
-  top: 76px;
-  font-family: Neue Haas Unica W1G;
-  line-height: 52px;
   font-size: 55px;
+  margin-top: 76px;
+  letter-spacing: 3px;
   text-align: center;
   color: #FFFFFF; }
