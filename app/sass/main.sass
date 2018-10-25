@@ -1,7 +1,9 @@
 @font-face
     font-family: "Raleway-Regular"
     src: url("../fonts/Raleway-Regular.woff")
-    
+
+header 
+    height: 1000px       
 body
     background-color: #070A14
     margin: 0 auto
@@ -16,7 +18,7 @@ main
         z-index: 10
     h1
         font-size: 55px
-        margin-top: 76px
+        margin: 0 0 40px 0
         letter-spacing: 3px
         text-align: center
         color: #FFFFFF
@@ -24,7 +26,6 @@ main
         font-size: 28px
         line-height: 30px
         color: #FFFFFF
-
 
     .buttons
         z-index: 5
@@ -34,44 +35,26 @@ main
             margin: 0 5px
             font-size: 14px
             line-height: 16px
-            top: 692px
             background: none
             color: #498AC9
             border: 1px solid #498AC9
             box-sizing: border-box
             border-radius: 2px
+            transition: 1s
 
             &:hover
                 background: #498AC9
                 color: #FFFFFF
                 box-shadow: 0px 2px 20px rgba(73,138,201,0.4)
-
+.laptop_box
+    position: relative
 .blur 
     position: absolute
     width: 1126px
+    margin-left: -563px
     height: 290px
-    left: 127px
-    top: 248px
+    left: 50%
+    top: -50%
     background: #3F449F
     opacity: 0.7
     filter: blur(250px)
-
-// .buttons
-
-//     button   
-//         width: 156px
-//         height: 40px
-//         left: calc(50% - 156px/2 + 145px)
-//         top: 692px
-//         color: #498AC9
-//         border: 1px solid #498AC9
-//         box-sizing: border-box
-//         border-radius: 2px
-
-
-
-
-    
-
-
-

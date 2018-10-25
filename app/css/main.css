@@ -2,6 +2,9 @@
   font-family: "Raleway-Regular";
   src: url("../fonts/Raleway-Regular.woff"); }
 
+header {
+  height: 1000px; }
+
 body {
   background-color: #070A14;
   margin: 0 auto;
@@ -15,7 +18,7 @@ main img {
 
 main h1 {
   font-size: 55px;
-  margin-top: 76px;
+  margin: 0 0 40px 0;
   letter-spacing: 3px;
   text-align: center;
   color: #FFFFFF; }
@@ -33,26 +36,32 @@ main .buttons {
     margin: 0 5px;
     font-size: 14px;
     line-height: 16px;
-    top: 692px;
     background: none;
     color: #498AC9;
     border: 1px solid #498AC9;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     -webkit-border-radius: 2px;
-            border-radius: 2px; }
+            border-radius: 2px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s; }
     main .buttons button:hover {
       background: #498AC9;
       color: #FFFFFF;
       -webkit-box-shadow: 0px 2px 20px rgba(73, 138, 201, 0.4);
               box-shadow: 0px 2px 20px rgba(73, 138, 201, 0.4); }
 
+.laptop_box {
+  position: relative; }
+
 .blur {
   position: absolute;
   width: 1126px;
+  margin-left: -563px;
   height: 290px;
-  left: 127px;
-  top: 248px;
+  left: 50%;
+  top: -50%;
   background: #3F449F;
   opacity: 0.7;
   -webkit-filter: blur(250px);
