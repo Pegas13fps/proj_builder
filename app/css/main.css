@@ -67,10 +67,12 @@ main .line {
   background: #FFFFFF;
   opacity: 0.5;
   position: absolute;
-  z-index: 20; }
+  z-index: 20;
+  -webkit-transition: 3s;
+  -o-transition: 3s;
+  transition: 3s; }
 
 main .l1 {
-  height: 130px;
   top: 50%;
   left: 37.7%; }
 
