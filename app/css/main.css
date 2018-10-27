@@ -28,79 +28,6 @@ main h2 {
   line-height: 30px;
   color: #FFFFFF; }
 
-main .dots .dot {
-  width: 3px;
-  height: 3px;
-  background: #ffffff;
-  opacity: 0.5;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
-  position: absolute;
-  z-index: 20; }
-
-main .dots .d1 {
-  left: 37.6%;
-  top: 48%; }
-
-main .dots .d2 {
-  left: 41.7%;
-  top: 48%; }
-
-main .dots .d3 {
-  left: 46.5%;
-  top: 48%; }
-
-main .dots .d4 {
-  left: 50.9%;
-  top: 48%; }
-
-main .dots .d5 {
-  left: 61.7%;
-  top: 47%; }
-
-main .dots .d6 {
-  left: 67.4%;
-  top: 42%; }
-
-main .line {
-  width: 1px;
-  background: #FFFFFF;
-  opacity: 0.5;
-  position: absolute;
-  z-index: 20;
-  -webkit-transition: 3s;
-  -o-transition: 3s;
-  transition: 3s; }
-
-main .l1 {
-  top: 50%;
-  left: 37.7%; }
-
-main .l2 {
-  height: 130px;
-  top: 50%;
-  left: 41.75%; }
-
-main .l3 {
-  height: 80px;
-  top: 50%;
-  left: 46.58%; }
-
-main .l4 {
-  height: 130px;
-  top: 50%;
-  left: 50.95%; }
-
-main .l5 {
-  height: 132px;
-  top: 49%;
-  left: 61.75%; }
-
-main .l6 {
-  height: 90px;
-  top: 44%;
-  left: 67.45%; }
-
 main .buttons {
   z-index: 5;
   position: relative;
@@ -140,3 +67,53 @@ main .buttons {
   opacity: 0.7;
   -webkit-filter: blur(250px);
           filter: blur(250px); }
+
+.dot-line {
+  position: absolute;
+  z-index: 20; }
+  .dot-line > p {
+    color: #FFFFFF; }
+  .dot-line .dot {
+    width: 3px;
+    height: 3px;
+    background: #ffffff;
+    opacity: 0.5;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    position: absolute;
+    z-index: 20; }
+  .dot-line .line {
+    width: 1px;
+    left: 1px;
+    top: 3px;
+    background: #FFFFFF;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 20;
+    -webkit-transition: 3s;
+    -o-transition: 3s;
+    transition: 3s; }
+
+.box1 {
+  left: 37.6%;
+  top: 48%; }
+
+.box2 {
+  left: 41.7%;
+  top: 48%; }
+
+.box3 {
+  left: 46.5%;
+  top: 48%; }
+
+.box4 {
+  left: 50.9%;
+  top: 48%; }
+
+.box5 {
+  left: 61.7%;
+  top: 47%; }
+
+.box6 {
+  left: 67.4%;
+  top: 42%; }

@@ -14,7 +14,6 @@ main
 
     img
         width: 100%
-        // height: 114px
         position: relative
         z-index: 10
     h1
@@ -27,66 +26,6 @@ main
         font-size: 28px
         line-height: 30px
         color: #FFFFFF
-    .dots
-        .dot
-            width: 3px
-            height: 3px
-            background: #ffffff
-            opacity: 0.5
-            border-radius: 50%
-            position: absolute
-            z-index: 20
-
-        .d1
-            left: 37.6%
-            top: 48%
-        .d2
-            left: 41.7%
-            top: 48%
-        .d3
-            left: 46.5%
-            top: 48%
-        .d4
-            left: 50.9%
-            top: 48%
-        .d5
-            left: 61.7%
-            top: 47%
-        .d6
-            left: 67.4%
-            top: 42%
-    .line
-        width: 1px
-        background: #FFFFFF
-        opacity: 0.5
-        position: absolute
-        z-index: 20
-        transition: 3s
-
-    .l1
-        // height: 130px
-        top: 50%
-        left: 37.7%
-    .l2
-        height: 130px
-        top: 50%
-        left: 41.75%
-    .l3
-        height: 80px
-        top: 50%
-        left: 46.58%
-    .l4
-        height: 130px
-        top: 50%
-        left: 50.95%
-    .l5
-        height: 132px
-        top: 49%
-        left: 61.75%
-    .l6
-        height: 90px
-        top: 44%
-        left: 67.45%
 
     .buttons
         z-index: 5
@@ -120,3 +59,44 @@ main
     background: #3F449F
     opacity: 0.7
     filter: blur(250px)
+
+.dot-line
+    position: absolute
+    z-index: 20
+    > p 
+        color: #FFFFFF
+    .dot
+        width: 3px
+        height: 3px
+        background: #ffffff
+        opacity: 0.5
+        border-radius: 50%
+        position: absolute
+        z-index: 20
+    .line
+        width: 1px
+        left: 1px
+        top: 3px
+        background: #FFFFFF
+        opacity: 0.5
+        position: absolute
+        z-index: 20
+        transition: 3s
+.box1
+    left: 37.6%
+    top: 48%
+.box2
+    left: 41.7%
+    top: 48%
+.box3
+    left: 46.5%
+    top: 48%
+.box4
+    left: 50.9%
+    top: 48%
+.box5
+    left: 61.7%
+    top: 47%
+.box6
+    left: 67.4%
+    top: 42%
