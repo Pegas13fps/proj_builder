@@ -78,15 +78,14 @@ main .buttons {
     opacity: 0.5;
     -webkit-border-radius: 50%;
             border-radius: 50%;
-    position: absolute;
+    position: relative;
     z-index: 20; }
   .dot-line .line {
     width: 1px;
     left: 1px;
-    top: 3px;
     background: #FFFFFF;
     opacity: 0.5;
-    position: absolute;
+    position: relative;
     z-index: 20;
     -webkit-transition: 3s;
     -o-transition: 3s;
@@ -118,9 +117,21 @@ main .buttons {
 
 .text {
   color: #ffffff;
-  position: absolute;
+  position: relative;
+  margin: 4px 0 0 0;
   z-index: 20; }
 
 .port1 {
-  left: 27.5%;
-  top: 150%; }
+  left: -97%; }
+
+.port2 {
+  right: 49%; }
+
+.port3 {
+  right: 49%; }
+
+.port4 {
+  right: 49%; }
+
+.port5 {
+  right: 49%; }
