@@ -1,14 +1,10 @@
 // line.onclick = function() {
-
-//     this.style.height = 200 + 'px';
 //   }
 
-    // let a = document.querySelector("#line").style.height;
-    // console.log(a);
 
 window.onscroll = function() {
 	let scrolled = window.pageYOffset || document.documentElement.scrollTop;
-	if (scrolled > "900" ) {
+	if (scrolled > "500" ) {
         document.querySelector('.line1').style.height="130px";
         document.querySelector('.line2').style.height="130px";
 		document.querySelector('.line3').style.height="80px";
