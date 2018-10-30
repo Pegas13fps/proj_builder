@@ -31,6 +31,10 @@ main
         z-index: 5
         position: relative
         margin: 200px 0 42px 0
+        .active
+            background: #498AC9
+            color: #FFFFFF
+            box-shadow: 0px 2px 20px rgba(73,138,201,0.4)
         button   
             padding: 10px 15px
             margin: 0 5px
@@ -102,6 +106,9 @@ main
     position: relative
     margin: 4px 0 0 0
     z-index: 20
+    opacity: 0
+    transition: 3s
+    transition-delay: 2s
 .port1
     left: -97%
 .port2
