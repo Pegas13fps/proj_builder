@@ -60,3 +60,13 @@ window.onscroll = function() {
 
 	}
 }
+viewSide();
+function viewSide() {
+	let laptopBack = document.getElementById("backSide");
+	let laptopLeft = document.getElementById("lefrSide");
+	let laptopRight = document.getElementById("rightSide");
+
+	if((laptopBack).classList == "active" ) {
+		alert('block');
+	}
+}
