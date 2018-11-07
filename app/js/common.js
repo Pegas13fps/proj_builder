@@ -67,6 +67,7 @@ function viewSide() {
 	let laptopRight = document.getElementById("rightSide");
 
 	if((laptopBack).classList == "active" ) {
-		alert('block');
+		document.querySelector(".left-side").style.display="none";
+		document.querySelector(".right-side").style.display="none";
 	}
 }
