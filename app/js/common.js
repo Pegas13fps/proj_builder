@@ -63,11 +63,39 @@ window.onscroll = function() {
 viewSide();
 function viewSide() {
 	let laptopBack = document.getElementById("backSide");
-	let laptopLeft = document.getElementById("lefrSide");
-	let laptopRight = document.getElementById("rightSide");
+	// let laptopLeft = document.getElementById("lefrSide");
+	// let laptopRight = document.getElementById("rightSide");
 
 	if((laptopBack).classList == "active" ) {
 		document.querySelector(".left-side").style.display="none";
 		document.querySelector(".right-side").style.display="none";
+		document.querySelector(".back-side").style.display="block";
 	}
+}
+// function viewLeftSide() {
+// 	let laptopLeft = document.getElementById("lefrSide");
+// 	if((laptopLeft).classList == "active") {
+// 		document.querySelector(".back-side").style.display="none";
+// 		document.querySelector(".right-side").style.display="none";
+// 		document.querySelector(".left-side").style.display="block";
+
+// 	}
+// }
+
+backSide.onclick = function() {
+	document.querySelector(".back-side").style.display="block";
+	document.querySelector(".right-side").style.display="none";
+	document.querySelector(".left-side").style.display="none";
+}
+
+leftSide.onclick = function() {
+	document.querySelector(".back-side").style.display="none";
+	document.querySelector(".right-side").style.display="none";
+	document.querySelector(".left-side").style.display="block";
+}
+
+rightSide.onclick = function() {
+	document.querySelector(".back-side").style.display="none";
+	document.querySelector(".right-side").style.display="block";
+	document.querySelector(".left-side").style.display="none";
 }
