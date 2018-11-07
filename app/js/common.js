@@ -35,12 +35,22 @@ window.onscroll = function() {
 		document.querySelector('.line5').style.height="132px";
 		document.querySelector('.line6').style.height="90px";
 
+		document.querySelector('.line21').style.height="130px";
+		document.querySelector('.line22').style.height="130px";
+
+		document.querySelector('.line31').style.height="130px";
+
 		document.querySelector('.port1').style.opacity="1";
 		document.querySelector('.port2').style.opacity="1";      
 		document.querySelector('.port3').style.opacity="1";      
 		document.querySelector('.port4').style.opacity="1";      
 		document.querySelector('.port5').style.opacity="1";      
-		document.querySelector('.port6').style.opacity="1";      
+		document.querySelector('.port6').style.opacity="1";
+		
+		document.querySelector('.port21').style.opacity="1";      
+		document.querySelector('.port22').style.opacity="1";  
+		
+		document.querySelector('.port31').style.opacity="1";      				
 
 	}
 	else {
@@ -51,6 +61,11 @@ window.onscroll = function() {
 		document.querySelector('.line5').style.height="0px";
 		document.querySelector('.line6').style.height="0px";
 
+		document.querySelector('.line21').style.height="0px";
+		document.querySelector('.line22').style.height="0px";
+
+		document.querySelector('.line31').style.height="0px";
+
 		document.querySelector('.port1').style.opacity="0";
 		document.querySelector('.port2').style.opacity="0";      
 		document.querySelector('.port3').style.opacity="0";      
@@ -58,6 +73,10 @@ window.onscroll = function() {
 		document.querySelector('.port5').style.opacity="0";      
 		document.querySelector('.port6').style.opacity="0";      
 
+		document.querySelector('.port21').style.opacity="0";      
+		document.querySelector('.port22').style.opacity="0"; 
+		
+		document.querySelector('.port31').style.opacity="0";      		
 	}
 }
 viewSide();

@@ -138,6 +138,18 @@ main .buttons {
     -o-transition: 3s;
     transition: 3s; }
 
-.left-side .box1 {
-  left: 37.6%;
-  top: 48%; }
+.left-side .box21 {
+  left: 50.3%;
+  top: 39%; }
+  .left-side .box21 .port21 {
+    left: -50%; }
+
+.left-side .box22 {
+  left: 54.3%;
+  top: 39%; }
+
+.right-side .box31 {
+  left: 49.8%;
+  top: 42%; }
+  .right-side .box31 .port31 {
+    left: -50%; }
