@@ -1,24 +1,3 @@
-// line.onclick = function() {
-//   }
-
-// function addActiveClass() {
-// 	let buttonBack = document.getElementById('backSide');
-// 	if (buttonBack.classList === 'active') {
-// 		alert('hi');
-// 	}
-// }
-// document.getElementById('backSide').classList.add('active'); 
-
-// function sandwich(id){
-// 	style = document.getElementById(id).className;
-// 	if(style=='active'){
-// 		document.getElementById(id).classList.remove('active');
-// 	}else{
-// 		document.getElementById(id).classList.add('active');
-// 	}
-// }
-
-
 $(".buttons button").click(function(e) {
 	e.preventDefault();
 	$(".buttons button").removeClass('active');
