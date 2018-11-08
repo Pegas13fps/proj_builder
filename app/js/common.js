@@ -27,6 +27,9 @@ $(".buttons button").click(function(e) {
 
 window.onscroll = function() {
 	let scrolled = window.pageYOffset || document.documentElement.scrollTop;
+	let widthWindow = window.innerWidth
+	|| document.documentElement.clientWidth
+	|| document.body.clientWidth;
 	if (scrolled > "550" ) {
         document.querySelector('.line1').style.height="130px";
         document.querySelector('.line2').style.height="130px";
@@ -52,6 +55,18 @@ window.onscroll = function() {
 		
 		document.querySelector('.port31').style.opacity="1";      				
 
+	}
+	if (widthWindow <= 768) {
+		document.querySelector('.line2').style.height="160px";
+		document.querySelector('.line5').style.height="160px";		
+	}
+	if (widthWindow <= 320) {
+		document.querySelector('.line1').style.height="38px";
+		document.querySelector('.line2').style.height="86px";
+		document.querySelector('.line3').style.height="108px";
+		document.querySelector('.line4').style.height="127px";
+		document.querySelector('.line5').style.height="68px";
+		document.querySelector('.line6').style.height="40px";
 	}
 	else {
         document.querySelector('.line1').style.height="0px";
