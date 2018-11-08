@@ -30,7 +30,7 @@ window.onscroll = function() {
 	let widthWindow = window.innerWidth
 	|| document.documentElement.clientWidth
 	|| document.body.clientWidth;
-	if (scrolled > "550" ) {
+	if (widthWindow >= 769 && scrolled > "550") {
         document.querySelector('.line1').style.height="130px";
         document.querySelector('.line2').style.height="130px";
 		document.querySelector('.line3').style.height="80px";
@@ -56,17 +56,41 @@ window.onscroll = function() {
 		document.querySelector('.port31').style.opacity="1";      				
 
 	}
-	if (widthWindow <= 768) {
+	else if (widthWindow <= 768 && widthWindow >= 321 && scrolled > "550") {
 		document.querySelector('.line2').style.height="160px";
-		document.querySelector('.line5').style.height="160px";		
+		document.querySelector('.line5').style.height="160px";
+
+		document.querySelector('.port1').style.opacity="1";
+		document.querySelector('.port2').style.opacity="1";      
+		document.querySelector('.port3').style.opacity="1";      
+		document.querySelector('.port4').style.opacity="1";      
+		document.querySelector('.port5').style.opacity="1";      
+		document.querySelector('.port6').style.opacity="1";
+		
+		document.querySelector('.port21').style.opacity="1";      
+		document.querySelector('.port22').style.opacity="1";  
+		
+		document.querySelector('.port31').style.opacity="1";  
 	}
-	if (widthWindow <= 320) {
+	else if (widthWindow <= 320 && scrolled > "550") {
 		document.querySelector('.line1').style.height="38px";
 		document.querySelector('.line2').style.height="86px";
 		document.querySelector('.line3').style.height="108px";
 		document.querySelector('.line4').style.height="127px";
 		document.querySelector('.line5').style.height="68px";
 		document.querySelector('.line6').style.height="40px";
+
+		document.querySelector('.port1').style.opacity="1";
+		document.querySelector('.port2').style.opacity="1";      
+		document.querySelector('.port3').style.opacity="1";      
+		document.querySelector('.port4').style.opacity="1";      
+		document.querySelector('.port5').style.opacity="1";      
+		document.querySelector('.port6').style.opacity="1";
+		
+		document.querySelector('.port21').style.opacity="1";      
+		document.querySelector('.port22').style.opacity="1";  
+		
+		document.querySelector('.port31').style.opacity="1";  
 	}
 	else {
         document.querySelector('.line1').style.height="0px";

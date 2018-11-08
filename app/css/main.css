@@ -26,6 +26,7 @@ main h1 {
 main h2 {
   font-size: 28px;
   line-height: 30px;
+  margin-bottom: 200px;
   color: #FFFFFF; }
 
 main .buttons {
