@@ -114,9 +114,9 @@ main .buttons {
   .dot-line .port3 {
     right: 49%; }
   .dot-line .port4 {
-    right: 49%; }
+    right: 35%; }
   .dot-line .port5 {
-    right: 49%; }
+    right: 20%; }
   .dot-line .dot {
     width: 3px;
     height: 3px;
@@ -151,7 +151,7 @@ main .buttons {
   left: 49.8%;
   top: 42%; }
   .right-side .box31 .port31 {
-    left: -50%; }
+    left: -100%; }
 
 @media (max-width: 768px) {
   .back-side .blur {
@@ -165,7 +165,9 @@ main .buttons {
   main h1 {
     margin: 0 0 54px 0;
     font-size: 42px;
-    line-height: 46px; } }
+    line-height: 46px; }
+  main .buttons button {
+    margin: 5px; } }
 
 @media (max-width: 320px) {
   .back-side .dot-line .port2 {
@@ -184,6 +186,4 @@ main .buttons {
     margin: 0 0 49px 0; }
   main h2 {
     font-size: 22px;
-    line-height: 21px; }
-  main .buttons button {
-    margin: 5px; } }
+    line-height: 21px; } }
